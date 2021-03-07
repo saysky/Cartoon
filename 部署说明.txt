@@ -1,0 +1,12 @@
+部署说明
+1. 解压压缩包后，删除 _MACOSX 和 .DS_Store 文件，这两个是mac上的隐藏文件，windows系统不需要
+2. 准备 IDEA、jdk1.8+、mysql5.6+
+3. 通过 IDEA 打开项目
+4. 通过 Navicat 等可视化工具创建数据库 cartoon
+5. 修改修改项目代码 application.yaml 文件里的数据库用户名密码(第22行)
+6. 启动项目 Application.java
+
+
+项目说明
+项目基于协同过滤算法实现，具体类在 UserCF
+通过分析当前用户访问的视频id集合和其他用户的访问的id集合关系分析，寻找推荐的视频
