@@ -432,4 +432,3 @@
     $.fn.DanmuPlayer.Constructor = DanmuPlayer;
 
 
-})(jQuery);

@@ -127,4 +127,3 @@ public class Post extends BaseEntity {
         this.postStatus = 0;
         this.postSummary = "";
     }
-}

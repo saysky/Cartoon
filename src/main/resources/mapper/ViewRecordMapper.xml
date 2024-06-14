@@ -13,4 +13,3 @@
             create_time DESC
             LIMIT 1000
     </select>
-</mapper>

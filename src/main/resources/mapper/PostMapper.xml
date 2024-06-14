@@ -197,4 +197,3 @@
         ORDER BY r.id DESC
     </select>
 
-</mapper>

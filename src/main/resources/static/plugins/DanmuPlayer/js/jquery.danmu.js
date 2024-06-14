@@ -605,4 +605,3 @@ var cyntax = {
     $.fn.danmu.Constructor = Danmu;
 
 
-})(jQuery);
